@@ -11,8 +11,8 @@ async def main():
     await translator.translate_docx(
         input_path="A:\\translation\\TextFromBook.docx",
         output_path="A:\\translation\\Translated_Text.docx",
-        start_page=120,
-        end_page=140
+        start_page=250,
+        end_page=270
     )
 
 if __name__ == "__main__":
